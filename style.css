@@ -1,0 +1,1361 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+/* container */
+body{
+    width: 100%;
+    min-height: 100vh;
+    overflow-x:hidden;
+}
+.mini-text{
+    line-height: 2;
+}
+
+.container{
+    /* width: 1688px;; */
+    /* display: grid; */
+    
+}
+.containers{
+    width: 80%;
+    margin: auto;
+}
+/* container-end */
+
+
+.jevelin{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    /* align-items: center; */
+    /* margin: auto; */
+    /* background-color: red; */
+    padding: 39px 140px;
+    position: fixed;
+    top: 1px;
+    z-index: 99;
+}
+
+.burger{
+    margin-top: 10px;
+    margin-right: 10px;
+    display: none;
+    /* background-color: black; */
+}
+.right{
+    display: flex;
+
+}
+
+.home{
+    font-weight: 700;
+}
+
+.flullnav{
+    
+    /* height: 800px; */
+    /* background-size:cover; */
+    background-image: url("http://jevelin.shufflehound.com/medical/wp-content/uploads/sites/23/2018/09/lady.jpg?id=17");
+    background-position: top;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    /* margin-top: -76px; */
+    /* margin-top: -326px */
+
+}
+
+.proffesional{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-image: url("http://jevelin.shufflehound.com/medical/wp-content/uploads/sites/23/2018/09/lady.jpg?id=17"); */
+    /* background-attachment: fixed; */
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-color: red; */
+    /* height: 759px; */
+    margin: 101px;
+    
+    
+}
+
+.menu-bar{
+    height: 0;
+    width: 0;
+    float: right;
+    cursor: pointer;
+}
+
+.third-part{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* height: 425px; */
+    /* background-color: red; */
+    /* border-radius: 12px; */
+    /* position: relative; */
+    /* top: -264px; */
+    /* grid-template-rows: 1fr; */
+    grid-template-columns: 1fr 1fr 1fr;
+    /* margin-top: -52px; */
+    padding: 0px 40px;
+    /* grid-template-areas: "first second third"; */
+
+
+}
+
+
+
+.proffesionalthird{
+    /* height: 404px;
+    width: 100%; */
+    display: grid;
+    grid-template-rows: -3px 434px -3px;
+
+    /* border: 2px solid black; */
+    background-color: #b9f7f9 !important;
+    /* display: flex; */
+    border: 2px solid #b9f7f9 !important;
+    border-radius: 12px;
+    padding-top: 80px !important;
+    padding-right: 40px !important;
+    padding-bottom: 60px !important;
+    padding-left: 40px !important;
+  
+}
+
+
+
+.second{
+    /* height: 434px; */
+    position: relative;
+    /* z-index: 2;   */
+    background-color: #d4fdfe !important;
+}
+.second .button{
+    margin: 66px 0 0 0;
+    cursor: pointer;
+}
+.num{
+    font-family: 'Montserrat' !important;
+   font-weight: 400 !important;
+   color: #0078aa;
+   font-size: 30px;
+   text-align: left;
+   /* margin: 65px 0 24px 0; */
+}
+.emergency{
+    font-family: 'Montserrat' !important;
+    font-weight: 600 !important;
+    font-size: 16px;
+    text-align: left;
+    margin: 15px 0 30px 0;
+}
+.text-block{
+    font-family: montserrat;
+    color: #363636;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.7;
+}
+.spa{
+    display: block;
+    margin: 10px 0;
+}
+.button{
+    border: 2px solid   white;
+    height: 49px;
+    width: 107px;
+    border-radius: 32px; 
+    margin: 38px 0 0 -11px;
+    background-color:white;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.button:hover{
+    border: 2px solid #62bbd3;
+    background-color: #b7f4f6;
+    transition: 1s;
+}
+.button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    text-decoration: none;
+    color: black;
+}
+.inside{
+    width: 100%;
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textandimg{
+    /* position: absolute; */
+    font-size: 50px;
+    line-height: 48px !important;
+    font-weight: 700 !important;
+    font-family: roboto;
+    color: #363636;
+    z-index: 50;
+    padding: 100px 100px 30px 70px;
+    /* margin-top: 580px */
+    /* z-index: 1; */
+    /* margin: 37px; */
+    /* margin-left: 129px; */
+    /* height: 519px; */
+}
+.textandimg span{
+    display: block;
+    font-size: 48px;
+    line-height: 48px!important;
+    font-weight: 700!important;
+}
+.l{
+    margin-left: 36px;
+}
+.image-3{
+    margin: 26px 0;
+}
+
+
+.logo{
+    /* margin-left: 30px; */
+    margin-right: 30px;
+
+}
+
+
+.nav-items{
+    display: flex;
+
+    
+
+}
+.nav-items a{
+    text-decoration: none;
+    color: black;
+}
+.icons{
+    display: flex;
+}
+.icon{
+    margin: 10px;
+}
+
+.bt{
+    margin: 10px;
+    font-size: 13px;
+    margin: 13px;
+    font-family: 'Montserrat','Raleway','Helvetica','Arial',sans-serif;
+}
+.bt:hover{
+    transition: 1s;
+    color: rgb(19, 130, 176);
+}
+.about{
+    padding: 120px 0 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+    padding: 49px 51px;
+    overflow: hidden;
+}
+
+
+
+
+.image{
+    margin: 10px;
+    /* margin: 23px;
+    margin-left: 69px; */
+}
+.image img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.texas{
+    /* height: 448px;
+    width: 562px; */
+    padding: 0 15px;
+    margin: 21px;
+}
+.clinic{
+    font-size: 36px;
+    font-family: roboto;
+}
+.clinic strong{
+    font-family: roboto;
+}
+.professional-care{
+    font-size: 12px;
+    font-weight: 400!important;
+    color: #0078aa;
+    font-family: 'Montserrat'!important;
+    margin: -1px 0 61px;
+}
+.para{
+    font-size: 12px;
+    color: #363636;
+    margin-bottom: 35px;
+}
+
+/* Accordian Buttons */
+.acco{
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: -15px;
+
+}
+.accordion {
+    background-color: transparent;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border-radius: 10px;
+    margin: 1px 0;
+    color: rgba(80,80,80,0.74);
+  }
+  .font-button{
+    margin: 0 16px;
+    cursor: pointer;
+  }
+  .accordion:focus{
+    background-color: #3ce2ad;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+    
+  }
+
+  .active, .accordion:{
+    transition:2s;
+    background-color: rgb(60, 226, 173);
+  }
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+/* Accordian Buttons */
+
+/* grid-tamp */
+.grid-tamp{
+    /* display: grid; */
+
+}
+.how{
+ /* text-align: center; */
+ /* align-items: center; */
+ /* padding: 30px; */
+ padding: 50px;
+ background-color: rgb(235, 255, 254);
+ background-image: url(https://jevelin.shufflehound.com/medical/wp-content/uploads/sites/23/2018/09/Rectangle-827-copy-2.jpg?id=72);
+ background-size: cover;
+ background-repeat: no-repeat;
+ 
+
+}
+.top-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 12px 0;
+}
+.top-text1{
+    font-size: 36px;
+    font-family: roboto;
+    font-weight: 1000;
+}
+.top-text2{
+    font-size: 12px;
+    font-family: 'Montserrat'!important;
+    font-family: roboto;
+    margin: 20px 0;
+
+
+}
+.grid-tamp{
+    display: grid;
+    padding: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: white;
+    margin: 0 50px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+}
+
+
+
+
+.it{
+    /* text-align: left; */
+    padding: 52px;
+}
+.s{
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Montserrat'!important;
+    line-height: 2;
+
+}
+.par{
+    font-size: 12px;
+    font-family: 'Montserrat'!important;
+    font-weight: 300;
+}
+.jenna-berg{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    /* margin: 0 100px; */
+    /* padding: 90px; */
+    justify-content: center;
+    align-items: center;
+    /* padding: 0 104px */
+    /* padding: 0 104px; */
+    position: relative;
+    
+    /* left: 78px; */
+}
+.jenna-img{
+    background-position: right;
+    object-fit: cover;
+    /* width: 1px; */
+}
+.jenna-img img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.texss{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 0 0 0 236px;
+}
+
+
+.para1{
+    margin: 20px 0;
+    font-size: 14px;
+}
+.para2{
+    font-size: 12px;
+
+}
+.button0{
+    display: block;
+    font-size: 12px;
+    border: 2px solid transparent;
+    border-radius: 122px;
+    height: 51px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3ce2ad;
+    margin: 50px 0;
+    color: white;
+    cursor: pointer;
+}
+.button0:hover{
+    background-color: white;
+    border: 2px solid #3ce2ad;
+    color: black;
+    transition: 1s;
+}
+
+.numofprograms{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 0 120px 0 120px;
+}
+
+
+.ss{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+.big-num{
+    font-size: 50px;
+    margin: 9px 0;
+    /* text-align: center; */
+    font-weight: 700;
+}
+.hr{
+    width: 20%;
+    border-bottom: 2px solid #3ce2ad;
+    margin: 0 auto 12px auto; 
+}
+.medium-num{
+    margin: 5px 0;
+}
+.our-special-offer{
+    margin: auto;
+    /* border: 2px solid red; */
+    /* height: 1000px; */
+    /* width: 900px; */
+    padding: 120px 160px 0;
+    background-image: url("http://jevelin.shufflehound.com/medical/wp-content/uploads/sites/23/2018/09/BG.jpg?id=7");
+    background-position: center;
+    background-size: cover;
+}
+
+.our-text{
+    text-align: center;
+    margin: 50px 0;
+}
+.our-text h2{
+    font-size: 36px;
+    font-family: roboto;
+    /* margin: 20px 0; */
+}
+
+.our-text p{
+    font-size: 12px;
+    font-family: 'Montserrat'!important;
+    /* margin: 12px 0; */
+    margin: 21px 0px 47px 0px;
+    
+}
+.temp-3-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    /* padding: 30px; */
+
+}
+
+
+.temp-3-items .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+    border: 2px solid transparent;
+    cursor: pointer;
+
+}
+.temp-3-items .button:hover{
+    border: 2px solid #0078aa;
+    
+}
+.temp-3-items .button-mid{
+    background-color: #0078aa;
+    color: white;
+    border: 2px solid transparent;
+}
+.temp-3-items .button-mid:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid #0078aa;
+}
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+.allergy{
+    background-color: #d4fdfe;
+}
+.inner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 22px;
+}
+.down-boxs{
+    margin: 10px 0;
+}
+
+.first-heading{
+    font-size: 24px;
+    font-family: roboto;
+    padding: 15px 15px 9px 15px;
+    font-weight: 700;
+}
+.money{
+    font-size: 60px;
+    font-family: 'Montserrat'!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.money span{
+    display: inline-block;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 4px;
+    
+}
+.normal{
+    padding: 15px 10px;
+    font-size: 12px;
+}
+.normal1{
+    margin: 0 0 30px 0;
+}
+.eye{
+    background-color: #ffffff;
+    margin: -15px 0;
+    border: 2px solid #f5f5f5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+}
+
+.dental{
+    background-color: #d4fdfe;
+}
+
+.frequentlyask{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    /* margin: 0 auto; */
+    margin: 124px 0;
+}
+
+
+.question-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+}
+.first-text{
+    font-weight: 400;
+}
+.inner-quetion-section .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #61e7bc;
+    color: white;
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+.inner-quetion-section .button:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+.dropdown-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.dropdown-section .font-button{
+   margin: auto;
+}
+.open-icon{
+    font-weight: 900;
+    float: right;
+    color: #7fecc9;
+}
+.dropdown-section .accordion{
+    font-size: 14px;
+    font-family: roboto;
+    font-weight: 600;
+}
+.map{
+    width: 100%;
+}
+.address{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #f4f4f4;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 88px;
+}
+
+  .ar{
+    margin: auto;
+    padding: 0px 12px;
+    margin-left: 35px;
+  }
+.ar h2{
+    font-size: 14px;
+    font-family: 'Montserrat'!important;
+    color: #505050;
+}
+.ar p{
+    font-size: 12px;
+    font-family: 'Montserrat'!important;
+}
+.ad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 19px;
+}
+.address .img{
+    margin: 0 10px;
+}
+.img{
+    color: #3ce2ad;
+}
+.second-last{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    grid-template-rows: 1fr;
+    margin: 50px 10px;
+}
+
+
+
+.first-card{
+    /* height: 400px;
+    width: 300px; */
+    background-image: url("https://jevelin.shufflehound.com/medical/wp-content/uploads/sites/23/2018/09/Rounded-Rectangle-1202-copy-21.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 40px;
+    padding-right: 90px;
+    padding-top: 240px;
+    padding-bottom: 100px;
+    margin: 20px;
+
+}
+.second-card{
+    /* height: 400px;
+    width: 300px; */
+    background-image: url("https://jevelin.shufflehound.com/medical/wp-content/uploads/sites/23/2018/09/Rounded-Rectangle-1202-copy-21.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 40px;
+    padding-right: 90px;
+    padding-top: 240px;
+    padding-bottom: 100px;
+    margin: 20px;
+
+
+}
+
+.third-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 10px 40px 0 50px;
+}
+.make{
+    font-size: 36px;
+    font-family: roboto;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.third-card p{
+    font-size: 12px;
+    font-family: 'Montserrat'!important;
+    color: #0078aa;
+    margin-bottom: 20px;
+}
+.inp{
+    width: 100%;
+    margin: 31px 0;
+    padding: 10px;
+    border: 0.5px solid #e64f4f;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.date{
+    width: 100%;
+    margin: 21px 0;
+    padding: 10px;
+    border: 0.5px solid #e3e3e3;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.drop-down{
+    width: 100%;
+}
+.Subject{
+    width: 100%;
+    margin: 21px 0;
+    padding: 10px;
+    border: 0.5px solid #e5e5e5;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.third-card .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7bebc7;
+    cursor: pointer;
+    color: white;
+}
+.third-card .button:hover{
+    background-color: white;
+    color: black;
+}
+.image-section-1{
+    margin: 20px 57px;
+}
+.image-section-1 img{
+    margin: 5px 0;
+}
+/* .image-section-2 img{
+    margin: 5px 0;
+}
+.image-section-2{
+    margin: 20px 0;
+} */
+.jon-kate-h1{
+    font-size: 16px;
+    font-family: roboto;
+    color: white;
+    margin: 3px 0;
+
+}
+.geo-gar-text{
+    font-size: 13px;
+    font-family: 'Montserrat'!important;
+    color: white;
+}
+.lorem-sectin-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.lorem-text{
+    font-size: 12px;
+    font-family: 'Montserrat'!important;
+    color: white;
+    letter-spacing: 1px;
+}
+.line{
+    height: 65px;
+    width: 0.3px;
+    background-color: #91e9d8;
+}
+.second-last .num{
+    color: white;
+    font-family: 'themify';
+}
+.footer{
+    /* height: 400px; */
+    background-color: #1c1c1c;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    color: white;
+    padding-top: 90px !important;
+    padding-bottom: 90px !important;
+    /* padding: 0 auto; */
+    padding: 0 90px; 
+}
+
+
+.latest .logo img{
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+.important{
+    display: flex;
+    flex-direction: column;
+}
+.latest{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+
+}
+.header-box{
+    padding: 38px;
+}
+.part-1,.part-2{
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+.lg{
+    height: 70px;
+    width: 70px;
+    /* background-image: url("https://jevelin.shufflehound.com/medical/wp-content/uploads/sites/23/2018/09/Untitled-1_0001_niti-k-228198-unsplash.jpg"); */
+    margin-top: -2px;
+}
+.two-parts{
+    /* margin: 0 -39px; */
+}
+.new{
+    font-size: 13px;
+    font-family: roboto;
+    margin-bottom: 2px;
+}
+.wel{
+    font-size: 16px;
+    font-family: roboto;
+}
+.text01{
+    font-size: 15px;
+    font-family: 'Montserrat'!important;
+    color: #afafaf;
+
+}
+.divider{
+    height: 1px;
+    width: 459px;
+    color: white;
+    background-color: #333333;
+}
+.personal-info{
+    display: flex;
+    flex-direction: column;  
+}
+.ls{
+    display: flex;
+    margin: 10px 0;
+}
+.font-awesome-1{
+    margin: 0 15px;
+}
+.p{
+    font-size: 15px;
+    font-family: 'Montserrat'!important;
+    color: #bbbbbb;
+
+}
+.main-text{
+    font-size: 21px;
+    font-family: roboto;
+    padding-bottom: 25px;
+}
+
+.copyright-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #363636 !important;
+    padding-top: 33px !important;
+    padding-right: 50px !important;
+    padding-bottom: 33px !important;
+    padding-left: 50px !important;
+    color: white;
+    font-size: 14px;
+    font-family: 'Montserrat'!important;
+
+}
+
+/* @media only screen and (max-width:400px) {
+    .jevelin{
+        padding-left: 10px;
+    }
+    .background{
+        margin: 0;
+    }
+} */
+@media (max-width: 1024px){
+.num{
+    font-size: 20px;
+}
+.our-text h2{
+    font-size: 30px!important;
+}
+.clinic{
+    font-size: 26px;
+}
+    
+}
+@media only screen and (max-width:1025px){
+    .our-special-offer{
+        padding: 120px 60px 0;
+    }
+}
+@media only screen and (max-width:900px){
+    .right{
+        display: none;
+    }
+    .burger{
+        display: block;
+        margin-right: 40px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .address{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .ad{
+        float: left;
+    }
+    .second-last{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .frequentlyask{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .our-special-offer{
+        /* margin: 50px 50px 0; */
+        padding: 50px 50px 0;
+        
+        
+    }
+    .temp-3-items{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        /* padding: 30px; */
+        gap: 30px;
+    
+    }
+    .box{
+        /* margin: 50px 0; */
+    }
+    .numofprograms{
+        display: grid;
+        /* grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr; */
+       
+    }
+    .ss{
+        margin: 30px;
+        padding: 15px;
+    }
+    .texss{
+        padding: 36px 71px;
+    }
+    .jenna-berg img{
+        margin: 17px;
+    }
+    .jenna-berg{
+        padding: 30px 30px 0;
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr;
+    }
+    .grid-tamp{
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        margin: 0;
+        padding: 0;
+      }
+}
+
+  
+
+@media only screen and (max-width:768px){
+    .third-part {
+    
+      grid-template-rows: 1fr;
+      grid-template-columns: 1fr;
+    }
+    .it{
+        padding: 40px 175px;
+    }
+    .texss{
+        padding: 36px 71px;
+    }
+    .third-card{
+        padding: 24px 130px;
+    }
+    .inp{
+        border: 0.5px solid #cbcbcb;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+    .footer{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        padding: 0 49px;
+    }
+
+    .about{
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+      }
+      .texas{
+          padding: 0 76px;
+      }
+      .numofprograms{
+          
+          padding: 10px;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 1fr 1fr;
+      }
+      .box{
+          margin: 0px 96px;
+      }
+  }
+@media only screen and (max-width: 600px) {
+    .menu-bar{
+     float: right;
+    
+   }
+ }
+
+ @media only screen and (max-width:426px){
+    .jevelin{
+        padding: 39px 0;
+    }
+    .proffesional{
+        margin: 0;
+    }
+    .textandimg{
+        padding: 150px 60px 30px 48px;
+    }
+    .about{
+        padding: 0;
+    }
+    .clinic{
+        font-size: 26px;
+    }
+    .texas{
+        padding: 0 30px;
+    }
+    .top-text1{
+        font-size: 33px;
+    }
+    .texss{
+        padding: 51px 24px;
+    }
+    .jenna-berg{
+        padding: 0;
+    }
+    .jenna-berg img{
+        padding: 0;
+        margin: 0;
+    }
+    .box{
+        margin: 0px 12px;
+    }
+    .first-card,.second-card,.third-card{
+        width: 92%;
+    }
+    .third-card{
+        padding: 24px 9px;
+        margin: 32px;
+        padding-right: 50px;
+    }
+    .make{
+        font-size: 26px;
+    }
+    .it{
+        padding: 52px;
+    }
+    .footer{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        padding: 0 20px;
+        line-height: 2;
+
+    }
+  } 
+
+
+
+@media only screen and (max-width: 376px){
+    .jevelin{
+        padding: 39px 0;
+    }
+    .proffesional{
+        margin: 0;
+    }
+    .image{
+        margin: 30px 10px 10px 10px;
+        padding: 23px 23px 23px 23px;
+    }
+    .proffesionalthird {
+        display: grid;
+        grid-template-rows: -3px 434px -3px;
+        /* border: 2px solid black; */
+        background-color: #b9f7f9 !important;
+        /* display: flex; */
+        border: 2px solid #b9f7f9 !important;
+        border-radius: 12px;
+        padding-top: 80px !important;
+        padding-right: 44px !important;
+        padding-bottom: 60px !important;
+        padding-left: 44px !important;
+    }
+    .professional-care{
+        /* margin: 14px 0 61px; */
+    }
+    .second{
+        background-color: #d4fdfe !important;
+    }
+    
+    .textandimg{
+        padding: 150px 60px 30px 48px;
+    }
+    .clinic{
+        font-size: 29px;
+    }
+    .texas{
+        padding: 0;
+    }
+    .top-text1{
+        font-size: 29px;
+    }
+    .jenna-berg{
+        padding: 0;
+    }
+    .jenna-berg img{
+        margin: 0;
+    }
+    .texss{
+        padding: 43px 32px;
+    }
+    .address{
+        padding: 35px 35px 35px 16px;
+    }
+    .box{
+        margin: 0;
+    }
+    .footer{
+        padding-left: 37px;
+    }
+    .part-1,.part-2{
+        padding: 0 43px 0 0;
+    }
+   .first-card,.second-card,.third-card{
+    padding: 24px 61px;
+    margin: 10px;
+   }
+   .header-box {
+    padding: 9px 0;
+}
+}
+
+@media only screen and (max-width: 321px){
+    .container {
+        /* display: grid; */
+        margin: 0 8px;
+    }
+    .jevelin{
+        margin: 0;
+        padding: 15px 5px;
+    }
+    .textandimg{
+        padding: 150px 81px 100px 48px;
+    }
+    .textandimg h2{
+    margin: 20px 0;
+    line-height: 1;
+    }
+    
+    .it{
+        padding: 30px;
+    }
+    .proffesional{
+        /* padding-left: 70px; */
+        margin: 0;
+    } 
+    .textandimg span{
+        font-size: 48px;
+    }
+    .how {
+        padding: 41px 56px;
+    }
+
+    .footer {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        padding: 0 20px;
+    }
+    .our-special-offer{
+        padding: 50px 30px 0;
+    }
+    .third-card{
+    padding: 24px 59px 24px 39px;
+    width: 84%;
+    }
+    .third-part{
+        padding: 0px 57px
+    }
+    .first-card,.second-card{
+        margin: 9px;
+        width: 83%;
+    }
+    .box{
+        margin: 0;
+    }
+    .texss{
+        padding: 36px 21px;
+    }
+    .about .clinic{
+        font-size: 26px;
+    }
+    .texas{
+        margin: 0;
+        padding: 33px;
+    }
+    .accordion {
+        padding: 18px 6px;
+    }
+    .second-last{
+        margin: 10px 0;
+    }
+    .top-text1{
+        text-align: center;
+    }
+    .top-text2{
+        text-align: center;
+    }
+}
+
+
